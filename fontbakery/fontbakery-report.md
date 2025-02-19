@@ -96,7 +96,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ꙁ, Ꙁ, ꙃ, Ꙃ</td>
+<td align="left">The following base characters are missing from the font: Ꙁ, ꙃ, Ꙃ, ꙁ</td>
 <td align="left">cu_Cyrl (Church Slavic)</td>
 </tr>
 </tbody>
@@ -1576,15 +1576,15 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+007F : try adding symbols</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: syriac, canadian-aboriginal, hebrew, old-permic, duployan, malayalam, todhri, tifinagh, math, tai-le, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tifinagh, coptic, malayalam, old-permic, canadian-aboriginal, duployan, syriac, hebrew, todhri, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+033E COMBINING VERTICAL TILDE: not included in any glyphset definition</li>
 <li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: chakma, modi, syriac, balinese, gurmukhi, buginese, yi, warang-citi, cham, khudawadi, new-tai-lue, kannada, mongolian, tai-le, kaithi, mandaic, meetei-mayek, kharoshthi, bengali, hatran, hanunoo, khojki, syloti-nagri, saurashtra, devanagari, lepcha, arabic, dogra, masaram-gondi, nko, limbu, malayalam, tamil, kayah-li, phags-pa, grantha, lao, hanifi-rohingya, myanmar, psalter-pahlavi, tagbanwa, newa, zanabazar-square, takri, brahmi, hebrew, bhaiksuki, sharada, sundanese, avestan, pahawh-hmong, duployan, sogdian, gunjala-gondi, khmer, rejang, tifinagh, telugu, buhid, tibetan, tai-viet, siddham, thai, tagalog, thaana, gujarati, sinhala, batak, tirhuta, tai-tham, manichaean, oriya, mahajani, javanese</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: chakma, modi, syriac, balinese, gurmukhi, buginese, yi, warang-citi, cham, khudawadi, new-tai-lue, kannada, mongolian, tai-le, kaithi, mandaic, meetei-mayek, kharoshthi, bengali, khojki, hanunoo, syloti-nagri, saurashtra, devanagari, lepcha, arabic, dogra, masaram-gondi, nko, limbu, malayalam, old-hungarian, kayah-li, tamil, phags-pa, grantha, lao, hanifi-rohingya, myanmar, psalter-pahlavi, tagbanwa, newa, zanabazar-square, takri, brahmi, hebrew, bhaiksuki, sharada, sundanese, avestan, pahawh-hmong, duployan, sogdian, gunjala-gondi, khmer, rejang, tifinagh, telugu, buhid, tibetan, tai-viet, siddham, thai, tagalog, thaana, gujarati, sinhala, batak, tirhuta, tai-tham, manichaean, oriya, mahajani, javanese</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: khmer, lao, sogdian, hatran, gujarati, gunjala-gondi, kannada, kharoshthi, brahmi, sharada, phags-pa, syloti-nagri, hanunoo, dogra, pahawh-hmong, syriac, tagalog, telugu, tai-le, thai, grantha, tifinagh, siddham, mahajani, thaana, batak, devanagari, hanifi-rohingya, yi, gurmukhi, newa, buhid, duployan, javanese, oriya, tai-tham, takri, warang-citi, tirhuta, meetei-mayek, khudawadi, new-tai-lue, mandaic, avestan, malayalam, tibetan, buginese, arabic, hebrew, masaram-gondi, cham, kaithi, bhaiksuki, balinese, khojki, limbu, bengali, manichaean, mongolian, nko, myanmar, psalter-pahlavi, lepcha, modi, sinhala, sundanese, tamil, saurashtra, rejang, tagbanwa, tai-viet, kayah-li, zanabazar-square, chakma</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: khmer, lao, sogdian, syloti-nagri, gujarati, gunjala-gondi, kannada, kharoshthi, brahmi, sharada, phags-pa, tagalog, hanunoo, dogra, pahawh-hmong, syriac, telugu, tai-le, thai, grantha, tifinagh, siddham, mahajani, thaana, batak, devanagari, hanifi-rohingya, yi, gurmukhi, newa, buhid, duployan, javanese, oriya, tai-tham, takri, warang-citi, tirhuta, meetei-mayek, khudawadi, new-tai-lue, mandaic, avestan, malayalam, tibetan, buginese, old-hungarian, arabic, hebrew, masaram-gondi, cham, kaithi, bhaiksuki, balinese, khojki, limbu, bengali, manichaean, mongolian, nko, myanmar, psalter-pahlavi, lepcha, modi, sinhala, sundanese, tamil, saurashtra, rejang, tagbanwa, tai-viet, kayah-li, zanabazar-square, chakma</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, mongolian, phags-pa</li>
 <li>U+E000 : not included in any glyphset definition</li>
 <li>U+E001 : not included in any glyphset definition</li>
 <li>U+E002 : not included in any glyphset definition</li>
