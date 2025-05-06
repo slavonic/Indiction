@@ -1,21 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.13.2
-
-
-
-
-
-## Experimental checks
-
-These won't break the CI job for now, but will become effective after some time if nobody raises any concern.
-
-
-<details><summary>[1] Indiction-Regular.ttf</summary>
-<div>
-<details>
-    <summary>🔥 <b>FAIL</b> Check base characters have non-zero advance width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#base-has-width">base_has_width</a></summary>
-    <div>
+fontbakery version: 0.13.3
 
 
 
@@ -23,29 +8,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>The following glyphs had zero advance width:
-- uni04860300 (U+E003)</p>
-<pre><code>- uni04860301 (U+E001)
-
-- uniE000 (U+E000)
-
-- uniE002 (U+E002)
-
-- uniE004 (U+E004)
-</code></pre>
- [code: zero-width-bases]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-
-
-
-## All other checks
+## Check results
 
 
 
@@ -96,7 +59,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ꙁ, ꙃ, Ꙃ, ꙁ</td>
+<td align="left">The following base characters are missing from the font: ꙁ, Ꙃ, Ꙁ, ꙃ</td>
 <td align="left">cu_Cyrl (Church Slavic)</td>
 </tr>
 </tbody>
@@ -1576,14 +1539,14 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+007F : try adding symbols</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, hebrew, canadian-aboriginal, tai-le, malayalam, syriac, old-permic, todhri, duployan, math, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, tai-le, syriac, old-permic, todhri, canadian-aboriginal, hebrew, duployan, coptic, tifinagh, malayalam</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+033E COMBINING VERTICAL TILDE: not included in any glyphset definition</li>
 <li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: saurashtra, syloti-nagri, limbu, modi, lepcha, devanagari, avestan, bhaiksuki, kharoshthi, gujarati, khudawadi, mandaic, rejang, sinhala, cham, duployan, buginese, grantha, brahmi, hanunoo, kayah-li, nko, tai-le, tagalog, masaram-gondi, takri, tamil, dogra, tifinagh, batak, phags-pa, tai-viet, malayalam, meetei-mayek, syriac, psalter-pahlavi, siddham, warang-citi, lao, javanese, tagbanwa, thaana, zanabazar-square, yi, khojki, myanmar, sharada, tirhuta, mahajani, khmer, pahawh-hmong, thai, gunjala-gondi, balinese, hatran, sundanese, oriya, kaithi, gurmukhi, arabic, kannada, chakma, mongolian, new-tai-lue, sogdian, tai-tham, tibetan, hebrew, buhid, newa, hanifi-rohingya, telugu, bengali, manichaean</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: saurashtra, syloti-nagri, limbu, modi, lepcha, devanagari, avestan, bhaiksuki, kharoshthi, gujarati, khudawadi, mandaic, rejang, sinhala, cham, duployan, buginese, grantha, brahmi, hanunoo, kayah-li, nko, tai-le, tagalog, masaram-gondi, takri, tamil, dogra, tifinagh, batak, phags-pa, tai-viet, malayalam, meetei-mayek, syriac, psalter-pahlavi, siddham, warang-citi, lao, javanese, old-hungarian, tagbanwa, thaana, zanabazar-square, yi, khojki, myanmar, sharada, tirhuta, mahajani, khmer, pahawh-hmong, thai, gunjala-gondi, balinese, sundanese, oriya, kaithi, gurmukhi, arabic, kannada, chakma, mongolian, new-tai-lue, sogdian, tai-tham, tibetan, hebrew, buhid, newa, hanifi-rohingya, telugu, bengali, manichaean</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: limbu, tirhuta, tai-le, newa, lepcha, buginese, khojki, syloti-nagri, balinese, tai-tham, gunjala-gondi, hebrew, brahmi, gurmukhi, gujarati, myanmar, siddham, tagalog, devanagari, khmer, malayalam, modi, masaram-gondi, cham, psalter-pahlavi, telugu, thai, saurashtra, syriac, tamil, thaana, oriya, mandaic, kannada, zanabazar-square, sinhala, khudawadi, manichaean, javanese, avestan, grantha, bengali, tai-viet, yi, sharada, sundanese, buhid, lao, kayah-li, phags-pa, tagbanwa, bhaiksuki, nko, pahawh-hmong, duployan, arabic, mongolian, hanunoo, kaithi, tifinagh, mahajani, rejang, kharoshthi, warang-citi, hanifi-rohingya, meetei-mayek, dogra, hatran, takri, tibetan, batak, sogdian, new-tai-lue, chakma</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: limbu, tirhuta, tai-le, newa, lepcha, buginese, khojki, syloti-nagri, balinese, tai-tham, gunjala-gondi, hebrew, brahmi, gurmukhi, gujarati, myanmar, siddham, tagalog, devanagari, khmer, malayalam, modi, masaram-gondi, cham, psalter-pahlavi, telugu, thai, saurashtra, syriac, tamil, thaana, oriya, mandaic, kannada, zanabazar-square, sinhala, khudawadi, manichaean, javanese, avestan, grantha, bengali, tai-viet, yi, sharada, sundanese, buhid, lao, kayah-li, phags-pa, tagbanwa, bhaiksuki, nko, pahawh-hmong, duployan, arabic, mongolian, hanunoo, kaithi, tifinagh, mahajani, rejang, kharoshthi, warang-citi, hanifi-rohingya, meetei-mayek, dogra, takri, tibetan, batak, sogdian, new-tai-lue, old-hungarian, chakma</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, phags-pa, yi</li>
 <li>U+E000 : not included in any glyphset definition</li>
 <li>U+E001 : not included in any glyphset definition</li>
@@ -2276,8 +2239,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 5 | 16 | 108 | 7 | 100 | 0 | 
-| 0% | 0% | 2% | 7% | 46% | 3% | 42% | 0% | 
+| 0 | 0 | 4 | 16 | 108 | 7 | 101 | 0 | 
+| 0% | 0% | 2% | 7% | 46% | 3% | 43% | 0% | 
 
 
 
